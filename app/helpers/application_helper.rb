@@ -4,7 +4,7 @@ module ApplicationHelper
 		if page_tilte.empty?
 			base_title
 		else
-			page_tilte + "|" + base_title
+			page_tilte + " | " + base_title
 		end
 	end
 end
